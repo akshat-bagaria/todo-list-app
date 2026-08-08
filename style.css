@@ -219,3 +219,39 @@ body {
     background: #999;
 }
 
+@media (max-width: 600px) {
+    body {
+        padding: 20px;
+    }
+
+    .heading {
+        font-size: 32px;
+    }
+
+    .small_heading {
+        font-size: 14px;
+    }
+
+    .filter-container {
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .filter-btn {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+
+    .todo-input-container {
+        flex-direction: column;
+    }
+
+    #addTodoBtn {
+        width: 100%;
+    }
+
+    .todo-footer {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
